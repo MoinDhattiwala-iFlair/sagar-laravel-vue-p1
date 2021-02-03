@@ -62,7 +62,7 @@ export default {
       $("#example").DataTable({
         processing: true,
         serverSide: true,
-        ajax: '{{url("/getUser")}}',
+        ajax: "/getUser",
         order: [[0, "asc"]],
         columns: [
           {
